@@ -22,8 +22,8 @@ app.config = "postgres:postgres@localhost:5432/data_analyst_db"
 
 @app.route("/")
 def index():
+    return 'hello'
     return render_template("index.html")
-
 
 @app.route("/data")
 def data():
