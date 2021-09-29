@@ -14,7 +14,9 @@ Base = automap_base()
 # reflect the tables
 Base.prepare(engine, reflect=True)
 app = Flask(__name__)
-db = sqlalchemy(app)
+
+#db = sqlalchemy(app)
+
 app.config = "postgres:postgres@localhost:5432/data_analyst_db"
 
 
