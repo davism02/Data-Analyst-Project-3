@@ -17,12 +17,12 @@ app = Flask(__name__)
 
 #db = sqlalchemy(app)
 
-app.config = "postgres:postgres@localhost:5432/data_analyst_db"
+app.config["SQLALCHEMY_DATABASE_URI"]= "postgres:postgres@localhost:5432/data_analyst_db"
 
 
 @app.route("/")
 def index():
-    return 'hello'
+    
     return render_template("index.html")
 
 @app.route("/data")
