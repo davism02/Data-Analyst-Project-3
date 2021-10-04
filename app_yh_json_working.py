@@ -8,7 +8,7 @@ from flask import Flask, jsonify, render_template, redirect
 
 # In[2]:
 
-connection_string = "postgres:yourpassword@localhost:5432/da_job"
+connection_string = "postgres:postgres@localhost:5432/data_analyst_db"
 engine = create_engine(f'postgresql://{connection_string}')
 #engine.table_names()
 Base=automap_base()
@@ -51,7 +51,7 @@ def data():
     # In[7]:
 
 
-    rows=session.query(table.id,table.Title,table.Salary,table.Rating,table.Company,table.Headquarters,table.Size,table.ownership,table.Industry,table.Sector,table.Revenue,table.min,table.max).all()
+    rows=session.query(table.ID,table.Title,table.Salary,table.Rating,table.Company,table.Headquarters,table.Size,table.ownership,table.Industry,table.Sector,table.Revenue,table.min,table.max).all()
    
     # for i in all_data:
     #     all_data_dict= {}
