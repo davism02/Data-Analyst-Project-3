@@ -55,11 +55,11 @@ Performed Exploratory Data Analysis on the cleaned data and got a lot of insight
 <
 ![Top Hiring Locations](Website/hiring.png)
 
-![Job Skill](Website/images/job_titleskill_us.png)
+![Job Skill](Website/job_title_skill_us.png)
 
-![Jobs by sector](Website/images/Top Analyst Jobs by Sector.png)
+![Jobs by sector](Website/Top 10 Sectors with Number of jobs.png)
 
-![Top Sectors](Website/images/Top 10 Sectors with Number of Jobs.png)
+
 
 ## Webpage:
 
