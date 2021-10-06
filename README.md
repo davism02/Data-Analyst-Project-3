@@ -54,7 +54,7 @@ Performed Exploratory Data Analysis on the cleaned data and got a lot of insight
 
 ![Top Hiring Locations](Website/hiring.png)
 
-![Top Hiring Locations](Website/job_title-skill_us.png)
+![Top Hiring Locations](Website/job_title_skill_us.png)
 
 ![Location and Salary](Website/Job Location with their Salary Range.png)
 
