@@ -40,24 +40,27 @@ data has these features
 * Revenue
 * Competitors
 * Easy Apply
-
 ## DATA CLEANING:
-In this stage of project we cleaned data and made specific changes like 
-*Renamed columns and drop columns not needed 
-*Simplified the **Job Title** into a smaller version of it.
-* Made salary feature by removing these **Glassdoor Estimate** and **k or $**.
-* Created **Min salary** and **Max salary** feature to better understand the data.
-
+In this stage of project i had cleaned data and made specific changes like 
+* Simplified the **Job Title** into a smaller version of it.
+* Made salary feature by removing these **Glassdoor Estimate** and **k or $** for fitting it to a mdoel.
+* Took the length of the description instead of taking the description as the whole.
+* Made **Level** feature to describe the seniority of the job position.
+* Created **Min salary** and **Max salary** feature to better understand the data
+* Created a Avg Salary feature which we will use in prediction.
+* And made many more changes which can be viewed in the DA Cleaned data csv.
 ##  Exploratory Data Analysis(EDA):
 
-Performed Exploratory Data Analysis on the cleaned data and got a lot of insights , few of them are: 
-
+Performed Exploratory Data Analysis on the cleaned data and got a lot of insights , few of them are 
+<
 ![Top Hiring Locations](Website/hiring.png)
 
-![Top Hiring Locations](Website/job_title_skill_us.png)
+![Job Skill](Website/images/job_titleskill_us.png)
 
-![Location and Salary](Website/Job Location with their Salary Range.png)
+![Jobs by sector](Website/images/Top Analyst Jobs by Sector.png)
 
-## Build Webpage
+![Top Sectors](Website/images/Top 10 Sectors with Number of Jobs.png)
+
+## Webpage:
 
 
