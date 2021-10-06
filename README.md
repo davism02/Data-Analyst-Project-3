@@ -22,5 +22,8 @@ JavaScript Libraries (Plotly, Leaflet)
 HTML/ CSS
 Excel
 
-## Extract
+## ETL
 We used data analyst Dataset which was in CSV format. Our CSV had more than 2000 rows 
+The transformation process began by working on the csv data files mentioned in extract phase. First we imported csv file and read into Dataframe in Jupyter 
+Notebook. We filtered the pandas dataframe to select only columns needed. The cleaned dataframe was exported to csv to be loaded into database.
+Finally, for the load phase we created a database using PgAdmin.
