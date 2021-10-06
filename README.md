@@ -39,7 +39,7 @@ data has these features
 * Competitors
 * Easy Apply
 ## DATA CLEANING:
-[Cleaning Data jupyer Notebook](ETL/data_cleaning)
+[Cleaning Data jupyer Notebook](https://github.com/davism02/Data-Analyst-Project-3/blob/main/ETL/data_cleaning.ipynb)
 In this stage of project cleaned data and made specific changes like 
 * Simplified the **Job Title** into a smaller version of it.
 * Made salary feature by removing these **Glassdoor Estimate** and **k or $** for fitting it to a mdoel.
@@ -50,12 +50,12 @@ In this stage of project cleaned data and made specific changes like
 * And made many more changes which can be viewed in the DA Cleaned data csv.
 
 ##  Exploratory Data Analysis(EDA):
-[Exploring Data jupyer Notebook](ETL/analyzing_df_all)
+[Exploring Data jupyer Notebook](https://github.com/davism02/Data-Analyst-Project-3/blob/main/ETL/analyzing_df_all.ipynb)
 
 Performed Exploratory Data Analysis on the cleaned data and got a lot of insights , few of them are 
 ![Top Hiring Locations](Website/hiring.png)
 ![Job Skill](Website/job_title_skill_us.png)
-![Job Skill](Website/Job Titles.png)
+
 
 
 ## [Webpage](https://davism02.github.io/Data-Analyst-Project-3/Website/index.html)
