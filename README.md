@@ -52,14 +52,11 @@ In this stage of project i had cleaned data and made specific changes like
 ##  Exploratory Data Analysis(EDA):
 
 Performed Exploratory Data Analysis on the cleaned data and got a lot of insights , few of them are 
-<
 ![Top Hiring Locations](Website/hiring.png)
-
 ![Job Skill](Website/job_title_skill_us.png)
-
 ![Job Skill](Website/Job Titles.png)
 
 
-## Webpage:
+## [Webpage](https://davism02.github.io/Data-Analyst-Project-3/Website/index.html)
 
 
