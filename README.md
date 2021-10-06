@@ -57,8 +57,7 @@ Performed Exploratory Data Analysis on the cleaned data and got a lot of insight
 
 ![Job Skill](Website/job_title_skill_us.png)
 
-![Jobs by sector](Website/Top 10 Sectors with Number of Jobs.png)
-
+![Job Skill](Website/Job Titles.png)
 
 
 ## Webpage:
