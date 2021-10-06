@@ -59,7 +59,7 @@ Performed Exploratory Data Analysis on the cleaned data and got a lot of insight
 
 ![Jobs by sectorl](Website/images/Top Analyst Jobs by Sector.png)
 
-![Jobs Advertisement by City](Website/images/Number of Job advertisement by city.png)
+![Jobs Advertisement by City](Website/To 10 Sectors with Number of Jobs.png)
 
 ## Webpage:
 
