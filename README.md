@@ -51,15 +51,13 @@ In this stage of project i had cleaned data and made specific changes like
 * And made many more changes which can be viewed in the DA Cleaned data csv.
 ##  Exploratory Data Analysis(EDA):
 
-Performed Exploratory Data Analysis on the cleaned data and got a lot of insights , few of them are 
-<
+Performed Exploratory Data Analysis on the cleaned data and got a lot of insights , few of them are: 
+
 ![Top Hiring Locations](Website/hiring.png)
 
 ![Job Skill](Website/images/job_title_skill_us.png)
 
-![Jobs by sectorl](Website/images/Top Analyst Jobs by Sector.png)
-
-![Jobs Advertisement by City](Website/To 10 Sectors with Number of Jobs.png)
+![Top 10 Sectors](Website/Top 10 Sectors with Number of Jobs.png)
 
 ## Webpage:
 
