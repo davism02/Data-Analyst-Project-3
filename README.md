@@ -54,13 +54,14 @@ In this stage of project cleaned data and made specific changes like
 
 ##  Exploratory Data Analysis(EDA):
 [Exploring Data jupyer Notebook](https://github.com/davism02/Data-Analyst-Project-3/blob/main/ETL/analyzing_df_all.ipynb)
+[Exploring Visualization](https://github.com/davism02/Data-Analyst-Project-3/main/ETL/Visualizations3.ipynb)
 We were interested in relationships of salaries based on  job titles, locations, and sectors.  We segmented the data based on job title. 
 Performed Exploratory Data Analysis on the cleaned data and got a lot of insights, few of them are 
 
 ![Top Hiring Locations](Website/Location.png)
 ![Job Skill](Website/job_title_skill_us.png)
 ![Correlation Matrix](Website/resultmatrix.png)
-
+![Top Sectors](Website/Top10.png)
 There is a high correlation between SQL and Python, Tableau and SQL and Pyton an Tableau. There is also a high correlation with these skills and average salary. 
 
 
