@@ -1,6 +1,9 @@
 
 # Data-Analyst-Project-3
 
+#Purpose
+The purpose of this project is to anlyze what factors which impact salaries in the field of data analytics and to use this information to create a website to assist job seekers in their research.  
+
 Background & General Info
 
 It’s no secret that the novel coronavirus 2019 (COVID-19) outbreak is deeply affecting the lives of millions around the world, both directly and indirectly. The United States alone has shed nearly 10 million jobs in the past two weeks due to the COVID-19 shutdown.
@@ -11,7 +14,7 @@ We have created a website that precisely helps people look for data analyst jobs
 
 
 ## Data sources:
-For our website, we used that data analyst job postings dataset from Kaggle, which contains data of salary estimate, location, company rating, job description and more for job in the United States. Our dataset had more than 2000 rows and 16 columns. While going through our data we were able to decide that we will do visualizations around job opening by location, employer's size and estimated range of salary.
+For our website, we used data analyst job postings dataset from Kaggle, which contains data of salary estimate, location, company rating, job description and more for job in the United States. Our dataset had more than 2000 rows and 16 columns. While going through our data we were able to decide that we will do visualizations around job opening by location, employer's size and estimated range of salary.
 
 
 ## Application:
@@ -21,8 +24,8 @@ HTML/ CSS
 Excel
 
 ## DATA SET:
-This data set is taken from Kaggle where and it is Scrapped from GlassDoor platform which is famous for it employment service and 
-data has these features 
+This data set is taken from Kaggle where and it is Scrapped from GlassDoor platform which is famous for it employment service.  There are 2253 jobs and 15 job positn fields in the dataset.  
+The data has these features 
 * Job Title
 * Salary Estimate
 * Job Description
@@ -39,7 +42,7 @@ data has these features
 * Competitors
 * Easy Apply
 ## DATA CLEANING:
-[Cleaning Data jupyer Notebook](https://github.com/davism02/Data-Analyst-Project-3/blob/main/ETL/data_cleaning.ipynb)
+[Cleaning Data jupyter Notebook](https://github.com/davism02/Data-Analyst-Project-3/blob/main/ETL/data_cleaning.ipynb)
 In this stage of project cleaned data and made specific changes like 
 * Simplified the **Job Title** into a smaller version of it.
 * Made salary feature by removing these **Glassdoor Estimate** and **k or $** for fitting it to a mdoel.
@@ -51,10 +54,12 @@ In this stage of project cleaned data and made specific changes like
 
 ##  Exploratory Data Analysis(EDA):
 [Exploring Data jupyer Notebook](https://github.com/davism02/Data-Analyst-Project-3/blob/main/ETL/analyzing_df_all.ipynb)
-
-Performed Exploratory Data Analysis on the cleaned data and got a lot of insights , few of them are 
+We were interested in relationships of salaries based on  job titles, locations, and sectors.  We segmented the data based on job title. 
+Performed Exploratory Data Analysis on the cleaned data and got a lot of insights, few of them are 
 ![Top Hiring Locations](Website/hiring.png)
 ![Job Skill](Website/job_title_skill_us.png)
+![Correlation Matrix](Website/resultmatrix.png)
+There is a highcorrelation between SQL and Python, Tableau and SQL and Pyton an Tableau. There is also a high correlation with these skills and average salary. 
 
 
 
