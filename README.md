@@ -1,8 +1,8 @@
 
-# Data-Analyst-Project-3
+## Data-Analyst-Project-3
 
 #Purpose
-The purpose of this project is to anlyze what factors which impact salaries in the field of data analytics and to use this information to create a website to assist job seekers in their research.  
+The purpose of this project is to anlyze the factors which impact salaries in the field of data analytics and to use this information to create a website to assist job seekers in their research.  
 
 Background & General Info
 
@@ -56,10 +56,12 @@ In this stage of project cleaned data and made specific changes like
 [Exploring Data jupyer Notebook](https://github.com/davism02/Data-Analyst-Project-3/blob/main/ETL/analyzing_df_all.ipynb)
 We were interested in relationships of salaries based on  job titles, locations, and sectors.  We segmented the data based on job title. 
 Performed Exploratory Data Analysis on the cleaned data and got a lot of insights, few of them are 
-![Top Hiring Locations](Website/hiring.png)
+
+![Top Hiring Locations](Website/Job Location with their Salary range.png)
 ![Job Skill](Website/job_title_skill_us.png)
 ![Correlation Matrix](Website/resultmatrix.png)
-There is a highcorrelation between SQL and Python, Tableau and SQL and Pyton an Tableau. There is also a high correlation with these skills and average salary. 
+
+There is a high correlation between SQL and Python, Tableau and SQL and Pyton an Tableau. There is also a high correlation with these skills and average salary. 
 
 
 
