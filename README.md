@@ -57,7 +57,7 @@ In this stage of project cleaned data and made specific changes like
 We were interested in relationships of salaries based on  job titles, locations, and sectors.  We segmented the data based on job title. 
 Performed Exploratory Data Analysis on the cleaned data and got a lot of insights, few of them are 
 
-![Top Hiring Locations](Website/Job Location with their Salary range.png)
+![Top Hiring Locations](Website/Job Location with their Salary Range.png)
 ![Job Skill](Website/job_title_skill_us.png)
 ![Correlation Matrix](Website/resultmatrix.png)
 
