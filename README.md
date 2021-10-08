@@ -1,8 +1,8 @@
 
 ## Data-Analyst-Project-3
 
-#Purpose
-The purpose of this project is to anlyze the factors which impact salaries in the field of data analytics and to use this information to create a website to assist job seekers in their research.  
+## Purpose
+The purpose of this project is to analyze the factors which impact salaries in the field of data analytics and to use this information to create a website to assist job seekers in their research.  
 
 Background & General Info
 
@@ -21,10 +21,11 @@ For our website, we used data analyst job postings dataset from Kaggle, which co
 Python (Jupyter Notebook, Pandas)
 JavaScript Libraries (Plotly, Leaflet)
 HTML/ CSS
+SQL Postgres
 Excel
 
 ## DATA SET:
-This data set is taken from Kaggle where and it is Scrapped from GlassDoor platform which is famous for it employment service.  There are 2253 jobs and 15 job positn fields in the dataset.  
+This data set is taken from Kaggle where and it is Scrapped from GlassDoor platform which is famous for it employment service.  There are 2253 jobs and 15 job position fields in the dataset.  
 The data has these features 
 * Job Title
 * Salary Estimate
@@ -54,7 +55,7 @@ In this stage of project cleaned data and made specific changes like
 
 ##  Exploratory Data Analysis(EDA):
 [Exploring Data jupyer Notebook](https://github.com/davism02/Data-Analyst-Project-3/blob/main/ETL/analyzing_df_all.ipynb)
-[Exploring Visualization](https://github.com/davism02/Data-Analyst-Project-3/main/ETL/Visualizations3.ipynb)
+[Exploring Visualization](https://github.com/davism02/Data-Analyst-Project-3/blob/main/ETL/Visualizations3.ipynb)
 We were interested in relationships of salaries based on  job titles, locations, and sectors.  We segmented the data based on job title. 
 Performed Exploratory Data Analysis on the cleaned data and got a lot of insights, few of them are 
 
