@@ -18,11 +18,8 @@ For our website, we used data analyst job postings dataset from Kaggle, which co
 
 
 ## Application:
-Python (Jupyter Notebook, Pandas)
-JavaScript Libraries (Plotly, Leaflet)
-HTML/ CSS
-SQL Postgres
-Excel
+![Applications](Images/tools.png)
+
 
 ## DATA SET:
 This data set is taken from Kaggle where and it is Scrapped from GlassDoor platform which is famous for it employment service.  There are 2253 jobs and 15 job position fields in the dataset.  
