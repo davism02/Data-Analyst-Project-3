@@ -54,7 +54,7 @@
                         background-size: cover;
                         background-repeat: no-repeat;
                         font-family: 'Patrick Hand';
-                        }
+                         }
     
                         </style>
                     
@@ -74,34 +74,7 @@
                     
                         <hr><strong>Team Members: Michelle Davis, Cody Gardner, Yuging Huang, Dawn Washington</strong><strong></strong></strong><hr>
        
-                        <!-- <div class="row">
-                            <div class="col-lg-6" style="padding-bottom: 60px;">
-                                <div class="title"> </div>
-                                <a href="max_min.html">
-                                    <img class="panel" src="max_min.html" alt="">
-                            
-                                 </div>                   
-                                    <style>
-                                        .button {
-                                          border: none;
-                                          color: white;
-                                          padding: 15px 32px;
-                                          text-align: center;
-                                          text-decoration: none;
-                                          display: inline-block;
-                                          font-size: 16px;
-                                          margin: 4px 2px;
-                                          cursor: pointer;
-                                        }
                                         
-                                        .button1 {background-color: #0a530a;} /*Green */
-               
-                                        </style>
-                                        </head>
-                                        <body>
-                                        
-                                        <button class="button button1">Salary By Location</button>
-                                        -->
                                         <a href="max_min.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Salary by Location</a>
                                         <a href="no_jobs.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Job by Title</a> 
                                         <a href="top10sectors.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Top 10 Sectors</a> 
@@ -126,9 +99,7 @@
                                                   
                                                 </div>
                                               </div>
-                                          
-                                              
-                                                                                          
+   
                                         
                                         <body>
                                                                               
@@ -151,14 +122,114 @@
                                               </div>  
              
 
-                                               
-                        
-       
-       
-       
-       
-       
-       
+                                                                
+                                              
+
     
 </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script>var ml = { timelines: {}};</script>
+  <style>
+  
+
+  .moving-letters {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0px;
+    bottom: 0;
+    margin: 0;
+    height: 100px;
+  }
+  </style>
+</head>
+<body>
+  <div class="moving-letters">
+    <h1 class="ml1">
+  <span class="text-wrapper">
+    <span class="line line1"></span>
+    <span class="letters">Data</span>
+    <!-- <span class="line line2"></span> -->
+  </span>
+</h1>
+
+<!--more-->
+
+<script>
+// Wrap every letter in a span
+$('.ml1 .letters').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+
+ml.timelines["ml1"] = anime.timeline({loop: true})
+  .add({
+    targets: '.ml1 .letter',
+    scale: [0.3,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 600,
+    delay: function(el, i) {
+      return 70 * (i+1)
+    }
+  }).add({
+    targets: '.ml1 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700,
+    offset: '-=875',
+    delay: function(el, i, l) {
+      return 80 * (l - i);
+    }
+  }).add({
+    targets: '.ml1',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  anime({
+  targets: '.line-drawing-demo .lines path',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInOutSine',
+  duration: 1500,
+  delay: function(el, i) { return i * 250 },
+  direction: 'alternate',
+  loop: true
+});</script>
+
+<style>
+.ml1 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+
+</div>
 </html>
